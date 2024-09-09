@@ -28,7 +28,7 @@ The Companion Arbiter PUF (CAR-PUF) is an advanced Physical Unclonable Function 
 In summary, the CAR-PUF enhances the security of traditional Arbiter PUFs by introducing a companion mechanism that adds complexity and unpredictability, making it a powerful tool in hardware security applications.
 
 # Objective
-The objective crack the CAR-PUF (Physically Unclonable Function) using CSVMs, given challenge-response pairs as a dataset. 
+The objective is to crack the CAR-PUF (Physically Unclonable Function) using CSVMs, given challenge-response pairs as a dataset. 
 
 # Datasets
 
