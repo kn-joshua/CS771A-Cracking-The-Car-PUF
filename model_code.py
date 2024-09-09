@@ -4,7 +4,7 @@ from sklearn import linear_model
 from scipy.linalg import khatri_rao
 import time as tm
 
-#Functions for defining various types of classifiers
+#Functions for defining various types of classifiers for solving the problem
 def LinearSVCmodel(phiC,y_train):
   my_model = sklearn.svm.LinearSVC(loss='squared_hinge', C=0.01, tol=1e-5,penalty='l2')
   my_model.fit(phiC, y_train)
